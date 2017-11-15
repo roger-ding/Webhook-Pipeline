@@ -6,7 +6,7 @@
 
 node {
   currentBuild.displayName = "TEST_${currentBuild.number}"
-  currentBuild.description = "[Testing] Branch: master"
+  currentBuild.description = "[Testing] Branch: test"
   
   sh 'env > env.txt'
   
