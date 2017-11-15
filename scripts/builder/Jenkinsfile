@@ -1,3 +1,5 @@
+#!groovy
+
 /*
   This file is the entry point for the creation of a cluster and simply takes
   care of setting up the correct workspace and then delegate to cluster_builder.groovy
