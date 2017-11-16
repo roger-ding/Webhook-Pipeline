@@ -1,4 +1,4 @@
 import time
 import sys
 
-time.sleep(15)
+time.sleep(10)
