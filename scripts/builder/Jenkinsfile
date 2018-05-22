@@ -1,4 +1,3 @@
-#!groovy
 /*
   This file is the entry point for the creation of a cluster and simply takes
   care of setting up the correct workspace and then delegate to cluster_builder.groovy
@@ -7,7 +6,7 @@
 
 node {
   currentBuild.displayName = "TEST_${currentBuild.number}"
-  currentBuild.description = "[Testing] Branch: test"
+  currentBuild.description = "[Testing] Branch: master"
   
   sh 'env > env.txt'
   
